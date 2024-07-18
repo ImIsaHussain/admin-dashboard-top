@@ -12,6 +12,8 @@ body {
     ;
     grid-template-rows: 50px 50px 1fr 1fr 1fr;
     grid-auto-rows: 1fr;
+
+    background-color: rgb(219, 219, 219);
 }
 
 a {
@@ -36,14 +38,14 @@ img {
 }
 
 .account-icon {
-    max-width: 1vw;
+    max-width: 3vw;
 }
 
 .navigation {
     position: sticky;
     top: 0;
     grid-area: navigation;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 219, 219);
     padding: 5px;
     display: flex;
     justify-content: left;
@@ -60,7 +62,7 @@ img {
     justify-content: space-between;
     align-items: stretch;
     grid-area: content-main;
-    background-color: rgb(9, 142, 100);
+    background-color: rgb(255, 255, 255);
     padding: 0 20px 0 20px;
 }
 
@@ -77,30 +79,29 @@ img {
 .header-fixed {
     grid-area: header-fixed;
     max-height: 50px;
-    background-color: tomato;
+    background-color: rgb(219, 219, 219);
 }
 
 .header-sticky {
     position: sticky;
     top: 0;
-    background-color: white;
     grid-area: header-sticky;
     max-height: 50px;
-    background-color: rgb(142, 29, 9);
+    background-color: rgb(219, 219, 219);
 }
 
 .announcements {
     grid-area: announcements;
     max-width: 400px;
     word-break: break-word;
-    background-color: rgb(110, 236, 161);
+    background-color: rgb(219, 219, 219);
 }
 
 .trending {
     grid-area: trending;
     max-width: 400px;
     word-break: break-word;
-    background-color: rgb(91, 43, 118);
+    background-color: rgb(219, 219, 219);
 }
 
 .project {
@@ -132,7 +133,7 @@ img {
 .project {
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 31, 157);
+    background-color: rgb(109, 109, 109);
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
